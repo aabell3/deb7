@@ -68,3 +68,4 @@ iptables -A INPUT -p tcp --dport 25 -j REJECT
 iptables -A FORWARD -p tcp --dport 25 -j REJECT 
 iptables -A OUTPUT -p tcp --dport 25 -j REJECT 
 iptables-save
+rm 1.sh
