@@ -1,7 +1,7 @@
 #!/bin/bash
 # OFFICIAL SCRIPT MENU USER
 # PRIVATE USE ONLY
-# MKSSHVPN
+# VPSMURAH.ME
 echo "-------------------------------"
 echo "USERNAME          EXP DATE     "
 echo "-------------------------------"
@@ -18,4 +18,4 @@ JUMLAH="$(awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}' /etc/passwd | wc -l)
 echo "-------------------------------"
 echo "Total Users: $JUMLAH Users"
 echo "-------------------------------"
-echo -e "\e[1;33;44m[ MKSSHVPN ]\e[0m"
+echo -e "\e[1;33;44m[ vpsmurah.me ]\e[0m"
