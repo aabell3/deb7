@@ -23,5 +23,5 @@ do
         fi
 done < /etc/passwd
 echo "---------------------------------------------"
-echo " ONLINE : $ON     OFFLINE : $OFF     [ MKSSHVPN] "
+echo " ONLINE : $ON     OFFLINE : $OFF     [ vpsmurah.me] "
 echo "---------------------------------------------"
