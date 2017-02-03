@@ -1,17 +1,17 @@
 #!/bin/bash
 myip=`ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0' | head -n1`;
 myint=`ifconfig | grep -B1 "inet addr:$myip" | head -n1 | awk '{print $1}'`;
-curl -s -o ip.txt https://raw.githubusercontent.com/zero9911/k/master/script/none/4/ip.txt
+curl -s -o ip.txt https://raw.githubusercontent.com/aabell3/deb7/master/script/none/4/ip.txt
 find=`grep $myip ip.txt`
 if [ "$find" = "" ]
 then
 clear
 echo "
-      System Menu By MKSSHVPN
-[ YOUR IP NOT REGISTER ON MY SCRIPT ]
-         RM 20 PER IP/VPS
-----==== CONTACT FOR REGISTER ====----
-[ SMS/Telegram : 0162771064 / @mk_let ]
+      Script Auto Install By Vpsmurah.me
+[ IP anda belum Memiliki Akses Untuk Menggunakan script ini ]
+         Rp. 10.000 / ip untuk jasa install vps
+----==== Hubungi Kontak Dibawah ====----
+[ SMS/fb : 085288355698 / osip.yaroslav ]
 "
 rm *.txt
 rm *.sh
@@ -29,7 +29,7 @@ clear
 echo "START AUTOSCRIPT"
 clear
 echo "SET TIMEZONE KUALA LUMPUT GMT +8"
-ln -fs /usr/share/zoneinfo/Asia/Kuala_Lumpur /etc/localtime;
+ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime;
 clear
 echo "
 CHECK AND INSTALL IT
