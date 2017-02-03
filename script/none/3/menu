@@ -62,12 +62,12 @@ function used_data(){
 }
 
 clear
-echo "MKSSHVPN SYSTEM MENU
+echo "Menu Panel Untuk Admin -vpsmurah.me
 
 For support:-
-MKSSHVPN 
-Telegram : @MK_LET
-Whatsapp : +60126372269
+vpsmurah.me 
+Facebook : fb.com/osip.yaroslav
+Whatsapp : +6285288355698
 
 ";
 PS3='Please enter your choice: '
